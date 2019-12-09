@@ -1,1 +1,1 @@
-# Guild-Utility-Bot
+# Guild Utility Bot
