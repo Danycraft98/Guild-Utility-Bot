@@ -1,26 +1,26 @@
 {
-  "name": "lincoln",
+  "name": "guild-utility-bot",
   "version": "1.0.0",
-  "description": "Follow along with my Discord.js Bot Development series on YouTube!",
+  "description": "",
   "main": "app.js",
+  "dependencies": {
+    "better-sqlite3": "^5.4.3",
+    "integer": "^2.1.0",
+    "mongoose": "^5.8.0",
+    "quick.db": "^7.0.0b22"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/acollierr17/discord.js-series.git"
+    "url": "git+https://github.com/Danycraft98/Guild-Utility-Bot.git"
   },
-  "author": "acollierr17 <gamemaniac101@gmail.com>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/acollierr17/discord.js-series/issues"
+    "url": "https://github.com/Danycraft98/Guild-Utility-Bot/issues"
   },
-  "homepage": "https://github.com/acollierr17/discord.js-series#readme",
-  "dependencies": {
-    "discord.js": "^11.4.2",
-    "dotenv-flow": "^0.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.8.0"
-  }
+  "homepage": "https://github.com/Danycraft98/Guild-Utility-Bot#readme"
 }
