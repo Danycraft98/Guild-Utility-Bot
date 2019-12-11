@@ -1,14 +1,14 @@
 const { Client, Collection } = require('discord.js');
 const fs = require('fs');
+const db = require('quick.db');
 require('dotenv-flow').config();
 
 
 const client = new Client();
-client.mongoose = require('./utils/mongoose');
 client.commands = new Collection()
 client.config = require('./config');
-
-require('./utils/functions')(client);
+client.db = db; // 끝말잇기
+client.dictonary = [];
 
 fs.readdir('./events/', (err, files) => {
     if (err) return console.error;
