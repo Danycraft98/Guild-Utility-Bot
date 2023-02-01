@@ -6,7 +6,7 @@
   "dependencies": {
     "better-sqlite3": "^5.4.3",
     "integer": "^2.1.0",
-    "mongoose": "^5.8.0",
+    "mongoose": "^5.13.15",
     "quick.db": "^7.0.0b22"
   },
   "devDependencies": {},
